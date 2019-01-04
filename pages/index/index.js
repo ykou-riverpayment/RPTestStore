@@ -10,11 +10,11 @@ Page({
       },
       {
         type: 'success',
-        bindtap: "navigateToCart"
+        bindtap: "categoryToggle"
       },
       {
         type: "clear",
-        bindtap: "categoryToggle"
+        bindtap: "navigateToCart"
       }
     ],
     categoryList: {
@@ -53,9 +53,7 @@ Page({
   //事件处理函数
   navigateToCart: function() {
     wx.navigateTo({
-
-      url: '../product page/products'
-
+      url: '../shopping cart/cart'
     })
   },
   categoryToggle: function () {
