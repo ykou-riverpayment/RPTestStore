@@ -20,5 +20,5 @@
 <view class='cart-bottom'>
   <text class='cart-allPrice'>Total:</text>
   <text class='allPrice'>${{totalPrice}}</text>
-  <button class='btn-red' bindtap='toBuy' form-type='submit'>Checkout</button>
+  <button class='btn-red' bindtap='toBuy' form-type='submit'>WePay checkout</button>
 </view>
