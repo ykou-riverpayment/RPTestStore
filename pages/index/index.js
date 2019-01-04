@@ -3,14 +3,54 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    navIcons: [
+      {
+        type: 'search',
+        bindtap: ""
+      },
+      {
+        type: 'success',
+        bindtap: "navigateToCart"
+      },
+      {
+        type: "clear",
+        bindtap: "categoryToggle"
+      }
+    ],
+    categoryList: {
+      open: false,
+      categories: [
+        "logs",
+        "tops",
+        "bottoms"
+      ]
+    },
+    album: [
+      {
+        src: "../../utils/imgs/cover1.png",
+        width: "750rpx" 
+      }
+    ],
+    collections: [
+      {
+        title: "Midnight Wishes",
+        src: "../../utils/imgs/cover2.png",
+        height: "690rpx"
+      }
+    ]
   },
   //事件处理函数
-  bindViewTap: function() {
+  navigateToCart: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
+  },
+  categoryToggle: function () {
+    var list = this.data.categoryList;
+    list.open = !list.open;
+    this.setData({
+      categoryList: list
+    });
   },
   onLoad: function () {
     console.log('onLoad')
