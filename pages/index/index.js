@@ -42,7 +42,7 @@ Page({
   //事件处理函数
   navigateToCart: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../shopping cart/cart'
     })
   },
   categoryToggle: function () {
