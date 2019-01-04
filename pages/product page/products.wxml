@@ -16,42 +16,20 @@
    <view class='box'>
     <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493921_01"></image>
         <view                 class="product_title">GUCCI</view>
-    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
-    <view class ="product_price">$775</view>
+    <view class="product_name">Madelyn Leather Pumps With Crystal G</view>
+    <view class ="product_price">$1,485</view>
   </view>
    <view class='box'>
     <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493830_01"></image>
         <view                 class="product_title">GUCCI</view>
-    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
-    <view class ="product_price">$775</view>
+    <view class="product_name">Madelyn Leather Slingback Pumps With Crystal G</view>
+    <view class ="product_price">$1,770</view>
   </view>
    <view class='box'>
     <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310495298_01"></image>
         <view                 class="product_title">GUCCI</view>
-    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
-    <view class ="product_price">$775</view>
+    <view class="product_name">Etoile Velvet Heeled Sandals With Bee Detail</view>
+    <view class ="product_price">$1,370</view>
   </view>
 
 </view>
-<!-->
-<view class="items1">
-  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310496312_01"></image>
-      <view                 class="product_title">GUCCI</view>
-  <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
-  <view class ="product_price">$775</view>
-</view>
-
-<view class="items2">
-
-  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493921_01"></image>
-
-    <view                 class="product_title">GUCCI</view>
-  <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
-  <view class ="product_price">$775</view>
-</view>
-
-<view class="items3">
-  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493830_01"></image>
-  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310495298_01"></image>
-</view>
-
