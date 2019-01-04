@@ -48,20 +48,40 @@
 }
 
 .albumImage {
-  height: 360rpx;
+  height: 332rpx;
 }
 
 .collections {
   text-align: center;
 }
 
-.collectionTitle {
-  font-size: 65rpx;
-  font-family: "Times New Roman";
-  font-style: italic;
-  color: #9e9e9e;
-}
-
 .collectionImage {
   width: 750rpx;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+}
+
+.collectionTitle {
+  font-family: "Times New Roman";
+  font-size: 65rpx;  
+  color: #616161;
+}
+
+.collectionDescription {
+  margin-left: 20rpx;
+  font-family: "Arial";
+  font-size: 28rpx;  
+  color: #616161;
+  margin-top: 10rpx;
+  display: flex;
+}
+
+.collectionLink {
+  font-family: "Times New Roman";
+  font-size: 40rpx;  
+  color: #616161;
+  display: flex;
+  margin-top: 30rpx;
+  margin-left: 185rpx;
+  text-decoration: underline;
 }

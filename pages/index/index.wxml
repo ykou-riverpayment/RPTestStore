@@ -7,9 +7,8 @@
   </view>
   <view class="navigatorBox {{categoryList.open ? 'navigatorBoxShow' : ''}}">
     <block wx:for="{{categoryList.categories}}">
-      <navigator url="../{{item}}/{{item}}" class="navigator">
-        <view class="navigatorText">{{item}}</view>
-        <view class="navigatorArrow"></view>
+      <navigator url="{{item.link}}" class="navigator">
+        <view class="navigatorText">{{item.title}}</view>
       </navigator>
     </block>
   </view>
@@ -17,7 +16,9 @@
     <image class="albumImage" style="width: {{item.width}}" src="{{item.src}}"></image>
   </view>
   <view class="collections" wx:for="{{collections}}">
-    <p class="collectionTitle">{{item.title}}</p>
     <image class="collectionImage" style="height: {{item.height}}" src="{{item.src}}"></image>
+    <text class="collectionTitle">{{item.title}}\n</text>
+    <text class="collectionDescription">{{item.description}}\n</text>
+    <text class="collectionLink">{{item.link}}</text>
   </view>
 </view>

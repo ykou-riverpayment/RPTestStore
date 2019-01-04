@@ -20,9 +20,18 @@ Page({
     categoryList: {
       open: false,
       categories: [
-        "logs",
-        "tops",
-        "bottoms"
+        {
+          title: "shoes",
+          link: "../product page/products"
+        },
+        {
+          title: "tops",
+          link: "../product page/products"
+        },
+        {
+          title: "bottoms",
+          link: "../product page/products"
+        }
       ]
     },
     album: [
@@ -35,7 +44,9 @@ Page({
       {
         title: "Midnight Wishes",
         src: "../../utils/imgs/cover2.png",
-        height: "690rpx"
+        height: "690rpx",
+        description: "The gems and jewels to start the year in glittering fashion",
+        link: "SHOP JEWELLERY"
       }
     ]
   },
