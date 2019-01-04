@@ -1,16 +1,57 @@
-<view class="section">
-  <view class="section__title">flex-direction: row</view>
-  <view class="flex-wrp" style="flex-direction:row;">
-    <view class="flex-item bc_green">1</view>
-    <view class="flex-item bc_red">2</view>
-    <view class="flex-item bc_blue">3</view>
-  </view>
+
+<!--pages/product page/products.wxml-->
+
+<view class="banner">
+   <image style="width: 100px; height: 40px; background-color: #eeeeee;" mode="{{item.mode}}" src="https://1000logos.net/wp-content/uploads/2017/01/Font-Gucci-Logo.jpg"></image>
+  <image style="width: 500px; height: 100px; background-color: #eeeeee;" mode="{{item.mode}}" src="https://scontent.flas1-2.fna.fbcdn.net/v/t1.15752-9/49140302_393133554775596_3652129761167147008_n.png?_nc_cat=106&_nc_ht=scontent.flas1-2.fna&oh=13568fb2c785ed482a312a5f4427b08f&oe=5CC7BC43"></image>
 </view>
-<view class="section">
-  <view class="section__title">flex-direction: column</view>
-  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
-    <view class="flex-item bc_green">1</view>
-    <view class="flex-item bc_red">2</view>
-    <view class="flex-item bc_blue">3</view>
+
+<view class='container2'>
+  <view class='box'>
+    <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310496312_01"></image>
+        <view                 class="product_title">GUCCI</view>
+    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+    <view class ="product_price">$775</view>
   </view>
+   <view class='box'>
+    <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493921_01"></image>
+        <view                 class="product_title">GUCCI</view>
+    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+    <view class ="product_price">$775</view>
+  </view>
+   <view class='box'>
+    <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493830_01"></image>
+        <view                 class="product_title">GUCCI</view>
+    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+    <view class ="product_price">$775</view>
+  </view>
+   <view class='box'>
+    <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310495298_01"></image>
+        <view                 class="product_title">GUCCI</view>
+    <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+    <view class ="product_price">$775</view>
+  </view>
+
 </view>
+<!-->
+<view class="items1">
+  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310496312_01"></image>
+      <view                 class="product_title">GUCCI</view>
+  <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+  <view class ="product_price">$775</view>
+</view>
+
+<view class="items2">
+
+  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493921_01"></image>
+
+    <view                 class="product_title">GUCCI</view>
+  <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>
+  <view class ="product_price">$775</view>
+</view>
+
+<view class="items3">
+  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310493830_01"></image>
+  <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310495298_01"></image>
+</view>
+
