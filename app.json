@@ -2,12 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-<<<<<<< HEAD
-    "pages/productDetails/productDetails"
-=======
+    "pages/productDetails/productDetails",
     "pages/product page/products",
     "pages/shopping cart/cart"
->>>>>>> master
   ],
   "window": {
     "backgroundTextStyle": "light",

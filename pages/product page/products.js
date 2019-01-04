@@ -8,6 +8,12 @@ Page({
 
   },
 
+  onProductTap: function() {
+    wx.navigateTo({
+      url: '../productDetails/productDetails',
+    })
+  },
+  
   /**
    * Lifecycle function--Called when page load
    */
