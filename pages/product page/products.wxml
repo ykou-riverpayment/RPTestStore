@@ -7,12 +7,8 @@
 </view>
 
 <view class='container2'>
-<<<<<<< HEAD
   <view class='box'
     bindtap='onProductTap'>
-=======
-  <view class='box' bindtap="navigateToProduct">
->>>>>>> master
     <image style="width: 140px; height: 210px;" mode="{(item.mode}}" src="https://s7d9.scene7.com/is/image/HoltRenfrew1/m_4310496312_01"></image>
         <view                 class="product_title">GUCCI</view>
     <view class="product_name">New Ace Leather Sneakers With Logo Strap</view>

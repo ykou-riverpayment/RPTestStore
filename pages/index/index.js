@@ -3,13 +3,6 @@
 var app = getApp()
 Page({
   data: {
-<<<<<<< HEAD
-    motto: 'Hello',
-    userInfo: {
-      nickName: 'Hi',
-      avatarUrl:'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-0/p280x280/49496948_2032496623496100_2079164445036118016_n.png?_nc_cat=106&_nc_ht=scontent-lax3-2.xx&oh=ab1d6179aeeb9518e3e5067322cf303d&oe=5CD4400A'
-    }
-=======
     navIcons: [
       {
         type: 'search',
@@ -56,16 +49,11 @@ Page({
         link: "SHOP JEWELLERY"
       }
     ]
->>>>>>> master
   },
   //事件处理函数
   navigateToCart: function() {
     wx.navigateTo({
-<<<<<<< HEAD
-      url: '../product page/products'
-=======
       url: '../shopping cart/cart'
->>>>>>> master
     })
   },
   categoryToggle: function () {

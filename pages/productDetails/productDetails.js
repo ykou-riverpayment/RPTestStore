@@ -10,7 +10,7 @@ Page({
 
   onAddToCartTap: function () {
     wx.navigateTo({
-      url: '../index/index'
+      url: '../shopping cart/cart'
     })
   },
 

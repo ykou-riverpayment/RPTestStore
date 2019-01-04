@@ -12,11 +12,6 @@
       </navigator>
     </block>
   </view>
-<<<<<<< HEAD
-  
-
-</view>
-=======
   <view wx:for="{{album}}">
     <image class="albumImage" style="width: {{item.width}}" src="{{item.src}}"></image>
   </view>
@@ -27,4 +22,3 @@
     <text class="collectionLink">{{item.link}}</text>
   </view>
 </view>
->>>>>>> master
