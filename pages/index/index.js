@@ -53,7 +53,7 @@ Page({
   //事件处理函数
   navigateToCart: function() {
     wx.navigateTo({
-      url: '../shopping cart/cart'
+      url: '../product page/products'
     })
   },
   categoryToggle: function () {
