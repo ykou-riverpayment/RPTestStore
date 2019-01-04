@@ -3,15 +3,16 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello world',
+    motto: 'Hello',
     userInfo: {
-      nickName: "foo"
+      nickName: 'Hi',
+      avatarUrl:'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-0/p280x280/49496948_2032496623496100_2079164445036118016_n.png?_nc_cat=106&_nc_ht=scontent-lax3-2.xx&oh=ab1d6179aeeb9518e3e5067322cf303d&oe=5CD4400A'
     }
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../productDetails/productDetails'
+      url: '../product page/products'
     })
   },
   onLoad: function () {
