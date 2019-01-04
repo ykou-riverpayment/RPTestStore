@@ -3,8 +3,10 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    motto: 'Hello world',
+    userInfo: {
+      nickName: "foo"
+    }
   },
   //事件处理函数
   bindViewTap: function() {
