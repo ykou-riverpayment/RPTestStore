@@ -1,1 +1,10 @@
 /* pages/productDetails/productDetails.wxss */
+.product-image {
+  display: flex;
+  flex-direction: column;
+  width: 600rpx;
+  height: 600rpx;
+  margin: 20rpx;
+
+  align-self: flex-start
+}

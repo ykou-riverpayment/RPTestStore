@@ -1,9 +1,16 @@
 <!--pages/productDetails/productDetails.wxml-->
-<text>pages/productDetails/productDetails.wxml</text>
 
-<image 
-  style="width: 200rpx; height: 200rpx; " 
-  mode="aspectFit"
-src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/49696281_351241742355306_4398477906209144832_n.png?_nc_cat=105&_nc_ht=scontent-lax3-2.xx&oh=117235f4fc23326212b6718c25152159&oe=5CC48C8A">
-</image>
+<view
+  class="container"
+  >
+  
+  <image 
+    class="product-image"
+    
+    mode="aspectFit"
+  src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/49696281_351241742355306_4398477906209144832_n.png?_nc_cat=105&_nc_ht=scontent-lax3-2.xx&oh=117235f4fc23326212b6718c25152159&oe=5CC48C8A"
+    >
+  </image>
+</view>
+
 
