@@ -3,20 +3,67 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello',
-    userInfo: {
-      nickName: 'Hi',
-      avatarUrl:'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-0/p280x280/49496948_2032496623496100_2079164445036118016_n.png?_nc_cat=106&_nc_ht=scontent-lax3-2.xx&oh=ab1d6179aeeb9518e3e5067322cf303d&oe=5CD4400A'
-    }
-
+    navIcons: [
+      {
+        type: 'search',
+        bindtap: ""
+      },
+      {
+        type: 'success',
+        bindtap: "navigateToCart"
+      },
+      {
+        type: "clear",
+        bindtap: "categoryToggle"
+      }
+    ],
+    categoryList: {
+      open: false,
+      categories: [
+        {
+          title: "shoes",
+          link: "../product page/products"
+        },
+        {
+          title: "tops",
+          link: "../product page/products"
+        },
+        {
+          title: "bottoms",
+          link: "../product page/products"
+        }
+      ]
+    },
+    album: [
+      {
+        src: "../../utils/imgs/cover1.png",
+        width: "750rpx" 
+      }
+    ],
+    collections: [
+      {
+        title: "Midnight Wishes",
+        src: "../../utils/imgs/cover2.png",
+        height: "690rpx",
+        description: "The gems and jewels to start the year in glittering fashion",
+        link: "SHOP JEWELLERY"
+      }
+    ]
   },
   //事件处理函数
-  bindViewTap: function() {
+  navigateToCart: function() {
     wx.navigateTo({
 
       url: '../product page/products'
 
     })
+  },
+  categoryToggle: function () {
+    var list = this.data.categoryList;
+    list.open = !list.open;
+    this.setData({
+      categoryList: list
+    });
   },
   onLoad: function () {
     console.log('onLoad')
