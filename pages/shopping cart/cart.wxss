@@ -116,8 +116,10 @@
    margin-top: 7rpx;
   }
   .btn-red {
-  background-color: greenyellow; 
-  font-size: 40rpx;
+  background-color: #1b5e20; 
+  font-size: 45rpx;
+  color: #fff;
+  font-family: "Arial";
 }
 button {
   position: fixed;
