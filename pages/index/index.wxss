@@ -19,3 +19,69 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.navBar {
+  align-self: flex-end;
+  margin-right: 20rpx;
+  margin-top: -200rpx; 
+}
+
+.navIcon {
+  margin: 10rpx;
+}
+
+.navigatorBox {
+  height: 0;
+  overflow: hidden;
+}
+
+.navigatorBoxShow {
+  height: auto;
+  width: 95%;
+  background: #fafafa;
+}
+
+.navigatorText {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: italic; 
+}
+
+.albumImage {
+  height: 332rpx;
+}
+
+.collections {
+  text-align: center;
+}
+
+.collectionImage {
+  width: 750rpx;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+}
+
+.collectionTitle {
+  font-family: "Times New Roman";
+  font-size: 65rpx;  
+  color: #616161;
+}
+
+.collectionDescription {
+  margin-left: 20rpx;
+  font-family: "Arial";
+  font-size: 28rpx;  
+  color: #616161;
+  margin-top: 10rpx;
+  display: flex;
+}
+
+.collectionLink {
+  font-family: "Times New Roman";
+  font-size: 40rpx;  
+  color: #616161;
+  display: flex;
+  margin-top: 30rpx;
+  margin-left: 185rpx;
+  text-decoration: underline;
+}

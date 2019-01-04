@@ -1,12 +1,30 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <view class="group navBar">
+    <block wx:for="{{navIcons}}">
+      <icon class="navIcon" type="{{item.type}}" size="12" bindtap="{{item.bindtap}}"/>
+    </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="navigatorBox {{categoryList.open ? 'navigatorBoxShow' : ''}}">
+    <block wx:for="{{categoryList.categories}}">
+      <navigator url="{{item.link}}" class="navigator">
+        <view class="navigatorText">{{item.title}}</view>
+      </navigator>
+    </block>
   </view>
+<<<<<<< HEAD
   
 
 </view>
+=======
+  <view wx:for="{{album}}">
+    <image class="albumImage" style="width: {{item.width}}" src="{{item.src}}"></image>
+  </view>
+  <view class="collections" wx:for="{{collections}}">
+    <image class="collectionImage" style="height: {{item.height}}" src="{{item.src}}"></image>
+    <text class="collectionTitle">{{item.title}}\n</text>
+    <text class="collectionDescription">{{item.description}}\n</text>
+    <text class="collectionLink">{{item.link}}</text>
+  </view>
+</view>
+>>>>>>> master
