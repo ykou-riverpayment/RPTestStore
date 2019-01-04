@@ -8,6 +8,12 @@ Page({
 
   },
 
+  onAddToCartTap: function () {
+    wx.navigateTo({
+      url: '../index/index'
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */
